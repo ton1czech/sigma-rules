@@ -1,7 +1,11 @@
+import { Heading, Button, useColorModeValue, useColorMode } from '@chakra-ui/react'
+
 export default function Home() {
+  const { colorMode, toggleColorMode } = useColorMode()
   return (
     <div>
-      <h1>hi</h1>
+      <Heading bg={useColorModeValue('#0000ff', '#00ff00')}>hello</Heading>
+      <Button onClick={toggleColorMode}>Toggle {colorMode === 'light' ? 'Dark' : 'Light'}</Button>
     </div>
   )
 }
