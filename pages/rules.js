@@ -15,7 +15,7 @@ export default function Rules() {
         </Heading>
         {rules.map(({ id, text }) => (
           <Box background={useColorModeValue('mainLight', 'mainDark')} borderRadius='md' mb={4} p={5} key={id}>
-            <Text fontSize='2xl'>
+            <Text fontSize='2xl' color={useColorModeValue('mainDark', 'mainLight')}>
               Rule #{id}: {text}
             </Text>
           </Box>
