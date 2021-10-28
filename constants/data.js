@@ -201,11 +201,11 @@ export const rules = [
   },
   {
     id: 51,
-    text: 'The Sigma Male would never had sex, because he would lose his virginity, and he never lose',
+    text: 'The Sigma Male never has sex, because he would lose his virginity, and he never lose',
   },
   {
     id: 52,
-    text: 'The Sigma Male donates to charity, then demands for a refund',
+    text: 'The Sigma Male donates to charity, then demands for a refund when needed',
   },
   {
     id: 53,
@@ -222,5 +222,181 @@ export const rules = [
   {
     id: 56,
     text: 'The Sigma Male knows that getting old is just an excuse, he establishes dominance on his biology',
+  },
+  {
+    id: 57,
+    text: 'The Sigma Male is not part of the crowd, he is the reason of the crowd',
+  },
+  {
+    id: 58,
+    text: 'The Sigma Male never loses, his win is just delayed',
+  },
+  {
+    id: 59,
+    text: 'The Sigma Male knows that women are temporary, but the way of grind is eternal',
+  },
+  {
+    id: 60,
+    text: 'The Sigma Male uses his finger to measure temperature',
+  },
+  {
+    id: 61,
+    text: 'The Sigma Male is never late, the others just arrive early',
+  },
+  {
+    id: 62,
+    text: 'The Sigma Male is always himself',
+  },
+  {
+    id: 63,
+    text: 'The Sigma Male never forgets sigma rules even if he is dead',
+  },
+  {
+    id: 64,
+    text: 'The Sigma Male is never looking at himself in the mirror, he is letting the mirror to look at itself in his eyes',
+  },
+  {
+    id: 65,
+    text: 'The Sigma Male never studies fot the exam, he studies during the exam',
+  },
+  {
+    id: 66,
+    text: 'The Sigma Male deals with every situation from a tactical and strategic perspective',
+  },
+  {
+    id: 67,
+    text: 'The three most important qualities that the Sigma Male looks for in a woman are intelligence, trustworthiness, and reliability',
+  },
+  {
+    id: 68,
+    text: 'The Sigma Male understands that you must always bring balance to any situation',
+  },
+  {
+    id: 69,
+    text: 'The Sigma Male understands that one of his greatest talents is his creative mind',
+  },
+  {
+    id: 70,
+    text: 'The Sigma Male lives by the motto “If I can envision it then I can accomplish it”',
+  },
+  {
+    id: 71,
+    text: 'The Sigma Male never forgets those that treat him right and he always remembers those that treat him wrong',
+  },
+  {
+    id: 72,
+    text: 'The Sigma Male does not lose his mind over someone that does not mind losing you',
+  },
+  {
+    id: 73,
+    text: 'The Sigma Male understands that a man that knows how to treat a woman will always be able to keep one',
+  },
+  {
+    id: 74,
+    text: 'The Sigma Male understands that whenever someone tells him to “Just let it go” what they are really saying is that they don’t believe that they have the power to punish their enemies',
+  },
+  {
+    id: 75,
+    text: 'The Sigma Male lives by the motto “You can do whatever you wanna do but you can’t do it with me”',
+  },
+  {
+    id: 76,
+    text: 'The Sigma Male lives by the motto ”You may be cold but I’m colder',
+  },
+  {
+    id: 77,
+    text: 'The Sigma Male is an above-average male and therefore engages in above-average thinking',
+  },
+  {
+    id: 78,
+    text: 'The Sigma Male understands that when people hate him he must be doing something right',
+  },
+  {
+    id: 79,
+    text: 'The Sigma Male lives by the motto “Those that fail to plan plan to fail”',
+  },
+  {
+    id: 80,
+    text: 'The Sigma Male understands that before he can stimulate a woman physically he must first stimulate her mentally',
+  },
+  {
+    id: 81,
+    text: 'Number66-The Sigma Male believes that if he has to beg for something then he does not need it',
+  },
+  {
+    id: 82,
+    text: 'Number67-The Sigma Male keeps conversation to a minimum',
+  },
+  {
+    id: 83,
+    text: 'Number68-The Sigma Male never tries to explain himself to anyone',
+  },
+  {
+    id: 84,
+    text: 'Number69-The Sigma Male understands that in order to debate anyone the person that he is debating must have an intelligence level either equal to or greater than his',
+  },
+  {
+    id: 85,
+    text: 'Number70-The Sigma Male is a chameleon because he can adapt to any environment',
+  },
+  {
+    id: 86,
+    text: 'Number71-The Sigma Male lives by the motto “When you treat me like a dog you bring the wolf out of me”',
+  },
+  {
+    id: 87,
+    text: 'Number72-The difference between the Alpha Male and the Sigma Male is as follows, The Alpha Male is a dog who chases but the Sigma is a wolf who hunts',
+  },
+  {
+    id: 88,
+    text: 'Number73-The Sigma Male understands that the greatest menace is that which is unseen because you can’t fight what you can’t see',
+  },
+  {
+    id: 89,
+    text: 'Number74-The Sigma Male understands that the most important piece of jewelry that a man can wear is a watch because a watch tells time, time is mathematics, mathematics is numbers, and numbers rule the universe',
+  },
+  {
+    id: 90,
+    text: 'Number75-The Sigma Male understands that he is not the exception but the norm',
+  },
+  {
+    id: 91,
+    text: 'Number76-The Sigma Male knows that the two most powerful weapons in his arsenal are his ability to be polite and charming',
+  },
+  {
+    id: 92,
+    text: 'Number77-The Sigma Male understands that before he can believe in anyone else he must first believe in himself',
+  },
+  {
+    id: 93,
+    text: 'Number78-The Sigma Male understands that more he allows someone to talk the more information he can get out of them',
+  },
+  {
+    id: 94,
+    text: 'Number79-The Sigma Male knows that the key to winning any battle is to be able to outthink your opponent',
+  },
+  {
+    id: 95,
+    text: 'Number80-The Sigma Male understands that revenge and justice are one and the same',
+  },
+  {
+    id: 96,
+    text: 'Number81-The Sigma Male understands that he can never miss what he never had',
+  },
+  {
+    id: 97,
+    text: 'Number82-The Sigma Male will never let anyone control his narrative',
+  },
+  {
+    id: 98,
+    text: 'Number83-The Sigma Male lives by the motto “I do not forgive and I do not forget',
+  },
+  {
+    id: 99,
+    text: 'Number84- The Sigma Male understands that you never get a second chance to make a first impression',
+  },
+  {
+    id: 100,
+    text: 'Number85-The Sigma Male will always pick and choose his words very carefully',
   },
 ]
