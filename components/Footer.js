@@ -16,13 +16,13 @@ export default function Footer() {
   return (
     <Box background={useColorModeValue('secondaryDark', 'secondaryLight')}>
       <Container maxW='container.lg'>
-        <Box mt={10} borderTop='1px' borderTopColor={useColorModeValue('mainLight', 'mainDark')}>
-          <HStack alignItems='center' justifyContent='space-between'>
+        <Box mt={10} pt={10} borderTop='1px' borderTopColor={useColorModeValue('mainLight', 'mainDark')}>
+          <HStack alignItems='flex-start' justifyContent='space-between'>
             <VStack>
               <Heading>Links</Heading>
-              <NextLink href='https://github.com/ton1czech/sigma-rules'>
-                <Link>Source Code</Link>
-              </NextLink>
+              <Link href='http://github.com/ton1czech/sigma-rules' isExternal>
+                Source Code
+              </Link>
             </VStack>
             <VStack>
               <Heading>Navigation</Heading>
@@ -37,7 +37,7 @@ export default function Footer() {
               </NextLink>
             </VStack>
           </HStack>
-          <Text textAlign='center' color={useColorModeValue('mainLight', 'mainDark')}>
+          <Text mt={28} textAlign='center' color={useColorModeValue('mainLight', 'mainDark')}>
             &copy; {new Date().getFullYear()} ton1czech. All Rights Reserved.
           </Text>
         </Box>

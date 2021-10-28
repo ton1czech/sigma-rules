@@ -9,18 +9,16 @@ import { rules } from '../constants/data'
 export default function Home() {
   const [randNum, setRandNum] = useState(Number)
 
-  const randmath = Math.floor(Math.random() * rules.length, 1)
-
   useEffect(() => {
-    setRandNum(randmath)
-  }, [])
+    setRandNum(Math.floor(Math.random() * rules.length, 1))
+  }, [setRandNum])
 
   return (
     <>
       <Header />
       <Container maxW='container.lg'>
-        <Heading textAlign='center' size='2xl'>
-          Change your life, become a SIGMA (not now but yesterday)
+        <Heading textAlign='center' size='2xl' mb={14}>
+          Change your life. <br /> be the Sigma male (not now but yesterday)
         </Heading>
         <Box borderRadius='md' mb={3} p={5} background={useColorModeValue('mainLight', 'mainDark')}>
           <Text fontSize='3xl' textAlign='justify'>
@@ -28,7 +26,7 @@ export default function Home() {
           </Text>
         </Box>
         <Button
-          onClick={() => setRandNum(randmath)}
+          onClick={() => setRandNum(Math.floor(Math.random() * rules.length, 1))}
           background={useColorModeValue('orange.400', 'purple.500')}
           _hover={{ background: useColorModeValue('orange.500', 'purple.600') }}
           w='full'
