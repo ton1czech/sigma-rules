@@ -127,4 +127,100 @@ export const rules = [
     id: 32,
     text: 'The Sigma Male lives by the motto “calm, cool, and collective',
   },
+  {
+    id: 33,
+    text: 'The Sigma Male has power because he knows that he is the power',
+  },
+  {
+    id: 34,
+    text: 'The Sigma Male knows that his mission in life is to give knowledge to those that want it',
+  },
+  {
+    id: 35,
+    text: 'The Sigma Male operates on the stealth mentality, meaning he only makes his presence known when need be',
+  },
+  {
+    id: 36,
+    text: 'The Sigma Male understands that his presence can be a positive or a negative in any situation',
+  },
+  {
+    id: 37,
+    text: 'The Sigma Male lives by the motto “revenge is a dish best served cold”',
+  },
+  {
+    id: 38,
+    text: 'The Sigma Male never lets anyone outthink him',
+  },
+  {
+    id: 39,
+    text: 'The Sigma Male understands life is short but death is very long so he lives his life accordingly',
+  },
+  {
+    id: 40,
+    text: 'The Sigma Male understands that peace of mind is very important',
+  },
+  {
+    id: 41,
+    text: 'The Sigma Male understands that a man that does not read questions nothing but a man that does read questions everything',
+  },
+  {
+    id: 42,
+    text: 'The Sigma Male looks for intelligent conversation in any woman he is interested in',
+  },
+  {
+    id: 43,
+    text: 'The Sigma Male looks for women in need of mental stimulation',
+  },
+  {
+    id: 44,
+    text: 'The Sigma Male rarely smiles because he operates in a very serious world',
+  },
+  {
+    id: 45,
+    text: 'The Sigma Male never allows himself to be psychoanalyzed',
+  },
+  {
+    id: 46,
+    text: 'The Sigma Male is always involved in deep thought',
+  },
+  {
+    id: 47,
+    text: 'NO matter how angry the Sigma Male gets he will always come back to his moment of clarity',
+  },
+  {
+    id: 48,
+    text: 'The Sigma Male never places limits on himself',
+  },
+  {
+    id: 49,
+    text: 'The Sigma Male never doubts his self worth because at the end of the day he understands that he is the ultimate prize',
+  },
+  {
+    id: 50,
+    text: 'The Sigma Male lives by the motto “I will never stoop to your level rather I will make you rise to mine”',
+  },
+  {
+    id: 51,
+    text: 'The Sigma Male would never had sex, because he would lose his virginity, and he never lose',
+  },
+  {
+    id: 52,
+    text: 'The Sigma Male donates to charity, then demands for a refund',
+  },
+  {
+    id: 53,
+    text: 'If she asks the Sigma Male what his favourite position is, he simply replies: “CEO”',
+  },
+  {
+    id: 54,
+    text: 'A foolish man is disabled, but the Sigma Male goes to the settings and enables everything',
+  },
+  {
+    id: 55,
+    text: 'The Sigma Male is not a racist, he hates all races equally',
+  },
+  {
+    id: 56,
+    text: 'The Sigma Male knows that getting old is just an excuse, he establishes dominance on his biology',
+  },
 ]
