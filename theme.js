@@ -7,7 +7,8 @@ const theme = extendTheme({
     useSystemColorMode: true,
   },
   colors: {
-    flskadfjs: '#342389',
+    mainDark: '#222841',
+    mainLight: '#fdfce6',
   },
   fonts: {
     heading: 'Bebas Neue',

@@ -18,11 +18,15 @@ import { RiMoonLine, RiSunLine } from 'react-icons/ri'
 
 export default function Header() {
   const { colorMode, toggleColorMode } = useColorMode()
+  const colors = useColorModeValue('#DD6B20', '#553C9A')
 
   return (
     <Flex alignItems='center' justifyContent='space-between'>
       <NextLink href='/'>
-        <ImSigma color={useColorModeValue('yellow', 'blue')} />
+        <Link display='inline-flex' alignItems='center' fontSize='5xl'>
+          <ImSigma size={35} color={colors} />
+          Rules
+        </Link>
       </NextLink>
 
       <HStack alignItems='center'>
@@ -33,7 +37,8 @@ export default function Header() {
           <Link>Sigma Male</Link>
         </NextLink>
         <IconButton
-          background={useColorModeValue('yellow', 'blue')}
+          _hover={{ background: useColorModeValue('#ED8936', '#6B46C1') }}
+          background={colors}
           icon={useColorModeValue(<RiSunLine />, <RiMoonLine />)}
           onClick={toggleColorMode}
         />
