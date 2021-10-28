@@ -1,16 +1,13 @@
 import NextLink from 'next/link'
+import { Box, useColorModeValue, Heading, HStack, VStack, Link, Container, Text, Icon } from '@chakra-ui/react'
 import {
-  Box,
-  useColorModeValue,
-  Heading,
-  useColorMode,
-  Flex,
-  HStack,
-  VStack,
-  Link,
-  Container,
-  Text,
-} from '@chakra-ui/react'
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoTiktok,
+  IoLogoReddit,
+  IoLogoYoutube,
+} from 'react-icons/io5'
 
 export default function Footer() {
   return (
@@ -18,13 +15,44 @@ export default function Footer() {
       <Container maxW='container.lg'>
         <Box mt={10} pt={10} borderTop='1px' borderTopColor={useColorModeValue('mainLight', 'mainDark')}>
           <HStack alignItems='flex-start' justifyContent='space-between'>
-            <VStack>
-              <Heading>Links</Heading>
-              <Link href='http://github.com/ton1czech/sigma-rules' isExternal>
+            <VStack align='left'>
+              <Heading textAlign='left'>Links</Heading>
+              <Link href='http://github.com/ton1czech/sigma-rules' display='flex' alignItems='center' isExternal>
+                <Icon mr={1} as={IoLogoGithub} />
                 Source Code
               </Link>
+              <Link href='http://instagram.com/ton1czech' display='flex' alignItems='center' isExternal>
+                <Icon mr={1} as={IoLogoInstagram} />
+                @ton1czech
+              </Link>
+
+              <Link href='http://twitter.com/ton1czech' display='flex' alignItems='center' isExternal>
+                <Icon mr={1} as={IoLogoTwitter} />
+                @ton1czech
+              </Link>
+              <Link href='http://reddit.com/user/ton1czech' display='flex' alignItems='center' isExternal>
+                <Icon mr={1} as={IoLogoReddit} />
+                @ton1czech
+              </Link>
+              <Link
+                href='http://youtube.com/channel/UCblA_CnykG2Dw_6IMwZ9z9A'
+                display='flex'
+                alignItems='center'
+                isExternal
+              >
+                <Icon mr={1} as={IoLogoYoutube} />
+                @ton1czech
+              </Link>
+              <Link href='http://tiktok.com/@t0n1czech' display='flex' alignItems='center' isExternal>
+                <Icon mr={1} as={IoLogoTiktok} />
+                @t0n1czech
+              </Link>
+              <Link href='http://github.com/ton1czech' display='flex' alignItems='center' isExternal>
+                <Icon mr={1} as={IoLogoGithub} />
+                @ton1czech
+              </Link>
             </VStack>
-            <VStack>
+            <VStack align='left'>
               <Heading>Navigation</Heading>
               <NextLink href='/'>
                 <Link>Home</Link>
