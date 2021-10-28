@@ -8,7 +8,9 @@ const theme = extendTheme({
   },
   colors: {
     mainDark: '#222841',
-    mainLight: '#fdfce6',
+    mainLight: '#F2F1D7',
+    secondaryDark: '#242B46',
+    secondaryLight: '#fdfce6',
   },
   fonts: {
     heading: 'Bebas Neue',
@@ -17,7 +19,7 @@ const theme = extendTheme({
   styles: {
     global: (props) => ({
       body: {
-        bg: mode('#222831', '#fdfce5')(props),
+        bg: mode('#222831', '#f2f1d7')(props),
       },
     }),
   },
@@ -25,6 +27,7 @@ const theme = extendTheme({
     Heading: {
       baseStyle: (props) => ({
         color: mode('#fff', '#000')(props),
+        textAlign: 'center',
       }),
     },
     Link: {

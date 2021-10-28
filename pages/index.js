@@ -1,4 +1,4 @@
-import { Heading, Box, Text, Button, useColorModeValue } from '@chakra-ui/react'
+import { Container, Heading, Box, Text, Button, useColorModeValue } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 
 import Header from '../components/Header'
@@ -17,22 +17,24 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Heading textAlign='center' fontSize='5xl'>
-        Change your life. Become a SIGMA (not now but yesterday)
-      </Heading>
-      <Box borderRadius='md' mb={3} p={5} background={useColorModeValue('mainLight', 'mainDark')}>
-        <Text fontSize='3xl' textAlign='justify'>
-          Rule #{rules[randNum].id}: {rules[randNum].text}
-        </Text>
-      </Box>
-      <Button
-        onClick={() => setRandNum(randmath)}
-        background={useColorModeValue('#DD6B20', '#553C9A')}
-        _hover={{ background: useColorModeValue('#ED8936', '#6B46C1') }}
-        w='full'
-      >
-        Show another rule
-      </Button>
+      <Container maxW='container.lg'>
+        <Heading textAlign='center' size='2xl'>
+          Change your life, become a SIGMA (not now but yesterday)
+        </Heading>
+        <Box borderRadius='md' mb={3} p={5} background={useColorModeValue('mainLight', 'mainDark')}>
+          <Text fontSize='3xl' textAlign='justify'>
+            Rule #{rules[randNum].id}: {rules[randNum].text}
+          </Text>
+        </Box>
+        <Button
+          onClick={() => setRandNum(randmath)}
+          background={useColorModeValue('orange.400', 'purple.500')}
+          _hover={{ background: useColorModeValue('orange.500', 'purple.600') }}
+          w='full'
+        >
+          Show another rule
+        </Button>
+      </Container>
     </>
   )
 }
