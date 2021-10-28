@@ -8,6 +8,7 @@ import {
   IoLogoReddit,
   IoLogoYoutube,
 } from 'react-icons/io5'
+import { ImSpotify } from 'react-icons/im'
 
 export default function Footer() {
   return (
@@ -49,6 +50,15 @@ export default function Footer() {
               </Link>
               <Link href='http://github.com/ton1czech' display='flex' alignItems='center' isExternal>
                 <Icon mr={1} as={IoLogoGithub} />
+                @ton1czech
+              </Link>
+              <Link
+                href='http://open.spotify.com/user/212btc3myry7hwb45aybf4efi'
+                display='flex'
+                alignItems='center'
+                isExternal
+              >
+                <Icon mr={1} as={ImSpotify} />
                 @ton1czech
               </Link>
             </VStack>
