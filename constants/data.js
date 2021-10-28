@@ -321,82 +321,82 @@ export const rules = [
   },
   {
     id: 81,
-    text: 'Number66-The Sigma Male believes that if he has to beg for something then he does not need it',
+    text: 'The Sigma Male believes that if he has to beg for something then he does not need it',
   },
   {
     id: 82,
-    text: 'Number67-The Sigma Male keeps conversation to a minimum',
+    text: 'The Sigma Male keeps conversation to a minimum',
   },
   {
     id: 83,
-    text: 'Number68-The Sigma Male never tries to explain himself to anyone',
+    text: 'The Sigma Male never tries to explain himself to anyone',
   },
   {
     id: 84,
-    text: 'Number69-The Sigma Male understands that in order to debate anyone the person that he is debating must have an intelligence level either equal to or greater than his',
+    text: 'The Sigma Male understands that in order to debate anyone the person that he is debating must have an intelligence level either equal to or greater than his',
   },
   {
     id: 85,
-    text: 'Number70-The Sigma Male is a chameleon because he can adapt to any environment',
+    text: 'The Sigma Male is a chameleon because he can adapt to any environment',
   },
   {
     id: 86,
-    text: 'Number71-The Sigma Male lives by the motto “When you treat me like a dog you bring the wolf out of me”',
+    text: 'The Sigma Male lives by the motto “When you treat me like a dog you bring the wolf out of me”',
   },
   {
     id: 87,
-    text: 'Number72-The difference between the Alpha Male and the Sigma Male is as follows, The Alpha Male is a dog who chases but the Sigma is a wolf who hunts',
+    text: 'The difference between the Alpha Male and the Sigma Male is as follows, The Alpha Male is a dog who chases but the Sigma is a wolf who hunts',
   },
   {
     id: 88,
-    text: 'Number73-The Sigma Male understands that the greatest menace is that which is unseen because you can’t fight what you can’t see',
+    text: 'The Sigma Male understands that the greatest menace is that which is unseen because you can’t fight what you can’t see',
   },
   {
     id: 89,
-    text: 'Number74-The Sigma Male understands that the most important piece of jewelry that a man can wear is a watch because a watch tells time, time is mathematics, mathematics is numbers, and numbers rule the universe',
+    text: 'The Sigma Male understands that the most important piece of jewelry that a man can wear is a watch because a watch tells time, time is mathematics, mathematics is numbers, and numbers rule the universe',
   },
   {
     id: 90,
-    text: 'Number75-The Sigma Male understands that he is not the exception but the norm',
+    text: 'The Sigma Male understands that he is not the exception but the norm',
   },
   {
     id: 91,
-    text: 'Number76-The Sigma Male knows that the two most powerful weapons in his arsenal are his ability to be polite and charming',
+    text: 'The Sigma Male knows that the two most powerful weapons in his arsenal are his ability to be polite and charming',
   },
   {
     id: 92,
-    text: 'Number77-The Sigma Male understands that before he can believe in anyone else he must first believe in himself',
+    text: 'The Sigma Male understands that before he can believe in anyone else he must first believe in himself',
   },
   {
     id: 93,
-    text: 'Number78-The Sigma Male understands that more he allows someone to talk the more information he can get out of them',
+    text: 'The Sigma Male understands that more he allows someone to talk the more information he can get out of them',
   },
   {
     id: 94,
-    text: 'Number79-The Sigma Male knows that the key to winning any battle is to be able to outthink your opponent',
+    text: 'The Sigma Male knows that the key to winning any battle is to be able to outthink your opponent',
   },
   {
     id: 95,
-    text: 'Number80-The Sigma Male understands that revenge and justice are one and the same',
+    text: 'The Sigma Male understands that revenge and justice are one and the same',
   },
   {
     id: 96,
-    text: 'Number81-The Sigma Male understands that he can never miss what he never had',
+    text: 'The Sigma Male understands that he can never miss what he never had',
   },
   {
     id: 97,
-    text: 'Number82-The Sigma Male will never let anyone control his narrative',
+    text: 'The Sigma Male will never let anyone control his narrative',
   },
   {
     id: 98,
-    text: 'Number83-The Sigma Male lives by the motto “I do not forgive and I do not forget',
+    text: 'The Sigma Male lives by the motto “I do not forgive and I do not forget',
   },
   {
     id: 99,
-    text: 'Number84- The Sigma Male understands that you never get a second chance to make a first impression',
+    text: 'The Sigma Male understands that you never get a second chance to make a first impression',
   },
   {
     id: 100,
-    text: 'Number85-The Sigma Male will always pick and choose his words very carefully',
+    text: 'The Sigma Male will always pick and choose his words very carefully',
   },
 ]
