@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { Heading, Box, Text, useColorModeValue, Container } from '@chakra-ui/react'
 
 import Header from '../components/Header'
@@ -8,6 +9,9 @@ import { rules } from '../constants/data'
 export default function Rules() {
   return (
     <>
+      <Head>
+        <title>Sigma Rules - Rules</title>
+      </Head>
       <Header />
       <Container maxW='container.lg'>
         <Heading textAlign='center' size='4xl' mb={5}>
