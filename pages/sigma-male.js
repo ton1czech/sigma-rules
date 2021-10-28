@@ -1,5 +1,7 @@
 import { Heading, Box, Container } from '@chakra-ui/react'
+
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 export default function SigmaMale() {
   return (
@@ -8,6 +10,7 @@ export default function SigmaMale() {
       <Container maxW='container.lg'>
         <Heading size='4xl'>Who is sigma male?</Heading>
       </Container>
+      <Footer />
     </>
   )
 }

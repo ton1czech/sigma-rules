@@ -2,6 +2,7 @@ import { Container, Heading, Box, Text, Button, useColorModeValue } from '@chakr
 import { useEffect, useState } from 'react'
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 import { rules } from '../constants/data'
 
@@ -35,6 +36,7 @@ export default function Home() {
           Show another rule
         </Button>
       </Container>
+      <Footer />
     </>
   )
 }

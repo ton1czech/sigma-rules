@@ -1,5 +1,8 @@
 import { Heading, Box, Text, useColorModeValue, Container } from '@chakra-ui/react'
+
 import Header from '../components/Header'
+import Footer from '../components/Footer'
+
 import { rules } from '../constants/data'
 
 export default function Rules() {
@@ -18,6 +21,7 @@ export default function Rules() {
           </Box>
         ))}
       </Container>
+      <Footer />
     </>
   )
 }
