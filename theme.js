@@ -35,6 +35,11 @@ const theme = extendTheme({
         color: mode('#fff', '#000')(props),
       }),
     },
+    Text: {
+      baseStyle: (props) => ({
+        color: mode('#fff', '#000')(props),
+      }),
+    },
   },
 })
 
