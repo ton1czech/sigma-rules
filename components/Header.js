@@ -7,7 +7,7 @@ export default function Header() {
   const { colorMode, toggleColorMode } = useColorMode()
 
   return (
-    <Box background={useColorModeValue('secondaryDark', 'secondaryLight')}>
+    <Box bg={useColorModeValue('secondaryDark', 'secondaryLight')}>
       <Container maxW='container.lg'>
         <Flex
           alignItems='center'
@@ -17,7 +17,7 @@ export default function Header() {
           borderBottomColor={useColorModeValue('mainLight', 'mainDark')}
         >
           <NextLink href='/'>
-            <Link display='inline-flex' alignItems='center' fontSize='5xl'>
+            <Link display='inline-flex' alignItems='center' fontSize='5xl' fontFamily='heading'>
               <Icon as={ImSigma} w={9} h={9} color={useColorModeValue('orange.400', 'purple.500')} mr={2} />
               Rules
             </Link>
@@ -31,11 +31,11 @@ export default function Header() {
               <Link>Sigma Male</Link>
             </NextLink>
             <IconButton
-              _hover={{ background: useColorModeValue('orange.500', 'purple.600') }}
-              background={useColorModeValue('orange.400', 'purple.500')}
+              bg={useColorModeValue('orange.400', 'purple.500')}
+              _hover={{ bg: useColorModeValue('orange.500', 'purple.600') }}
+              _active={{ bg: useColorModeValue('orange.600', 'purple.700') }}
               icon={useColorModeValue(<RiSunLine />, <RiMoonLine />)}
               onClick={toggleColorMode}
-              aria-label={colorMode === 'dark' ? 'Switch to Light theme' : 'Switch to Dark theme'}
             />
           </HStack>
         </Flex>
