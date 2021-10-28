@@ -21,7 +21,13 @@ export default function Header() {
   const colors = useColorModeValue('#DD6B20', '#553C9A')
 
   return (
-    <Flex alignItems='center' justifyContent='space-between'>
+    <Flex
+      alignItems='center'
+      justifyContent='space-between'
+      mb={10}
+      borderBottom='1px'
+      borderBottomColor={useColorModeValue('mainLight', 'mainDark')}
+    >
       <NextLink href='/'>
         <Link display='inline-flex' alignItems='center' fontSize='5xl'>
           <ImSigma size={35} color={colors} />
