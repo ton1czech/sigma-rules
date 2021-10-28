@@ -8,7 +8,7 @@ import { rules } from '../constants/data'
 export default function Home() {
   const [randNum, setRandNum] = useState(Number)
 
-  const randmath = Math.floor(Math.random() * 10, 1)
+  const randmath = Math.floor(Math.random() * rules.length, 1)
 
   useEffect(() => {
     setRandNum(randmath)

@@ -39,4 +39,92 @@ export const rules = [
     id: 10,
     text: 'The Sigma Male would never tolerate being told to “Just let it go” after being mistreated by someone, as a matter of fact, he will plot his revenge in a manner and timetable of his choosing',
   },
+  {
+    id: 11,
+    text: 'The Sigma Male is a patient man which makes him a very dangerous man because he has all the time in the world to plan',
+  },
+  {
+    id: 12,
+    text: 'The Sigma Male understands that revenge is a long term goal, not a short term game',
+  },
+  {
+    id: 13,
+    text: 'The Sigma Male understands that just the thought of what he might do to you is far worse than what he actually does',
+  },
+  {
+    id: 14,
+    text: 'The Sigma Male does not waste his time with petty conversation because it adds nothing to his day',
+  },
+  {
+    id: 15,
+    text: 'The Sigma Male is very selective when it comes to all aspects of his life',
+  },
+  {
+    id: 16,
+    text: 'The Sigma Male keeps a wall built up around him to keep certain people out',
+  },
+  {
+    id: 17,
+    text: 'The Sigma Male listens to everything that a woman tells him because he understands details are very important and women love a man who listens',
+  },
+  {
+    id: 18,
+    text: 'The Sigma Male understands that there is a science to everything',
+  },
+  {
+    id: 19,
+    text: 'The Sigma Male shows respect and courtesy to everyone as long as it is shown back',
+  },
+  {
+    id: 20,
+    text: 'The Sigma Male takes life very seriously and can’t understand why others do not',
+  },
+  {
+    id: 21,
+    text: 'The Sigma Male understands that true power comes from knowledge',
+  },
+  {
+    id: 22,
+    text: 'The Sigma Male lives by the motto “I trust that whatever will happen happens and I trust everything will be perfect',
+  },
+  {
+    id: 23,
+    text: 'The Sigma Male understands he does not need material things to get a woman all he needs to do is to be different',
+  },
+  {
+    id: 24,
+    text: 'The Sigma Male knows that he is a wolf amongst dogs',
+  },
+  {
+    id: 25,
+    text: 'The Sigma Male knows that brains always beats brawn',
+  },
+  {
+    id: 26,
+    text: 'The Sigma Male knows that research is the key that destroys all obstacles',
+  },
+  {
+    id: 27,
+    text: 'The Sigma Male knows that absence makes the heart grow fonder for when you are absent from someone’s view only then can they appreciate you',
+  },
+  {
+    id: 28,
+    text: 'The Sigma Male never lets emotion cloud his judgment',
+  },
+  {
+    id: 29,
+    text: 'The Sigma Male lives by the motto “A wise man lives forever but a fool dies young',
+  },
+  {
+    id: 30,
+    text: 'The Sigma Male understands that numbers without power mean nothing',
+  },
+  {
+    id: 31,
+    text: 'When dealing with a woman the Sigma Male never conforms to her way of thinking, rather she must conform to his',
+  },
+  {
+    id: 32,
+    text: 'The Sigma Male lives by the motto “calm, cool, and collective',
+  },
 ]
