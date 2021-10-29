@@ -501,7 +501,7 @@ export const rules = [
   },
   {
     id: 126,
-    text: 'The Sigma Male lives by the motto” I lead you follow”',
+    text: 'The Sigma Male lives by the motto ”I lead you follow”',
   },
   {
     id: 127,
