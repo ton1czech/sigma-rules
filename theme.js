@@ -30,6 +30,9 @@ const theme = extendTheme({
         color: mode('#fff', '#000')(props),
         textAlign: 'center',
       }),
+      defaultProps: {
+        size: '3xl',
+      },
     },
     Link: {
       baseStyle: (props) => ({

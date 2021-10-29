@@ -20,7 +20,9 @@ export default function Footer() {
         <Box mt={10} pt={10} borderTop='1px' borderTopColor={useColorModeValue('mainLight', 'mainDark')}>
           <HStack alignItems='flex-start' justifyContent='space-between' fontFamily='link' fontSize='lg'>
             <VStack align='left' spacing={3}>
-              <Heading textAlign='left'>Links</Heading>
+              <Heading textAlign='left' size='xl'>
+                Links
+              </Heading>
               <Link href='http://github.com/ton1czech/sigma-rules' display='flex' alignItems='center' isExternal>
                 <Icon mr={1} as={IoLogoGithub} />
                 Source Code
@@ -66,7 +68,7 @@ export default function Footer() {
               </Link>
             </VStack>
             <VStack align='left' spacing={3}>
-              <Heading>Navigation</Heading>
+              <Heading size='xl'>Navigation</Heading>
               <NextLink href='/'>
                 <Link display='flex' alignItems='center'>
                   <Icon mr={1} as={IoHomeSharp} />

@@ -14,7 +14,7 @@ export default function Rules() {
       </Head>
       <Header />
       <Container maxW='container.lg'>
-        <Heading textAlign='center' size='4xl' mb={5}>
+        <Heading size='4xl' mb={5}>
           List of rules
         </Heading>
         {rules.map(({ id, text }) => (

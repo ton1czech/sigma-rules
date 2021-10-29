@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
       <Header />
       <Container maxW='container.lg'>
-        <Heading textAlign='center' size='3xl' mb={28}>
+        <Heading mb={28}>
           Change your life. <br /> be the Sigma male (not now but yesterday)
         </Heading>
         <Heading textAlign='left' size='xl'>
@@ -34,7 +34,7 @@ export default function Home() {
         </Box>
         <Button
           onClick={() => setRandNum(Math.floor(Math.random() * rules.length, 1))}
-          background={useColorModeValue('orange.400', 'purple.500')}
+          bg={useColorModeValue('orange.400', 'purple.500')}
           _hover={{ bg: useColorModeValue('orange.500', 'purple.600') }}
           _active={{ bg: useColorModeValue('orange.600', 'purple.700') }}
           w='full'
@@ -43,8 +43,8 @@ export default function Home() {
         >
           Show another rule
         </Button>
-        <Heading textAlign='left' mt={28} size='3xl'>
-          your grindset is everything
+        <Heading textAlign='left' mt={28}>
+          your grind is everything
         </Heading>
         <Heading textAlign='left' size='xl'>
           do not let them stop you!
