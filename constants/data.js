@@ -399,4 +399,124 @@ export const rules = [
     id: 100,
     text: 'The Sigma Male will always pick and choose his words very carefully',
   },
+  {
+    id: 101,
+    text: 'The Sigma Male understands that words are very powerful because he knows that the power comes from knowing the definition of a word',
+  },
+  {
+    id: 102,
+    text: 'The Sigma Male understands that in life without balance you have chaos',
+  },
+  {
+    id: 103,
+    text: 'The Sigma Male always looks for the long term potential in any woman that he is interested in',
+  },
+  {
+    id: 104,
+    text: 'The Sigma Male lives by the motto “Why worship a king when you can be one”',
+  },
+  {
+    id: 105,
+    text: 'The Sigma Male understands that jealousy and envy are for the weak',
+  },
+  {
+    id: 106,
+    text: 'The Sigma Male understands that when you control the mind the body will follow',
+  },
+  {
+    id: 107,
+    text: 'The Sigma Male has the ability to assess any situation very quickly',
+  },
+  {
+    id: 108,
+    text: 'The Sigma Male becomes most dangerous when those that mistreat him underestimate him',
+  },
+  {
+    id: 109,
+    text: 'The Sigma Male understands that the only secret in the world is the history that you do not know',
+  },
+  {
+    id: 110,
+    text: 'The Sigma Male understands that the past is nothing more than a reflection of the present',
+  },
+  {
+    id: 111,
+    text: 'The Sigma will always trust you until you give him a reason not to',
+  },
+  {
+    id: 112,
+    text: 'The Sigma Male understands that there is a time and place for everything',
+  },
+  {
+    id: 113,
+    text: 'The Sigma Male understands that discipline is the key to getting what he wants',
+  },
+  {
+    id: 114,
+    text: 'If you have gotten to this very last codex then you are probably a Sigma Male',
+  },
+  {
+    id: 115,
+    text: 'The Sigma Male lives by the motto” If I want you I can find you”',
+  },
+  {
+    id: 116,
+    text: 'The Sigma Male only makes time for women that are worth his time',
+  },
+  {
+    id: 117,
+    text: '-The Sigma Male understands that the best way to teach anyone is to lead by example',
+  },
+  {
+    id: 118,
+    text: 'The Sigma Male understands that in order to understand where an individual is coming from you have to be where they are at',
+  },
+  {
+    id: 119,
+    text: 'The Sigma Male will always observe a woman’s behavior long before he would ever consider approaching her',
+  },
+  {
+    id: 120,
+    text: 'The Sigma Male is very outgoing once you get to know him',
+  },
+  {
+    id: 121,
+    text: 'The Sigma Male is a man of his word',
+  },
+  {
+    id: 122,
+    text: 'The Sigma Male understands that in life it’s the little things that mean a lot',
+  },
+  {
+    id: 123,
+    text: 'The Sigma Male will declare war on anyone or anything that is a threat to his peace of mind',
+  },
+  {
+    id: 124,
+    text: 'The Sigma Male understands that for a lot of women he is the need that they do not want',
+  },
+  {
+    id: 125,
+    text: 'The Sigma Male understands that no man knows everything but every man knows something',
+  },
+  {
+    id: 126,
+    text: 'The Sigma Male lives by the motto” I lead you follow”',
+  },
+  {
+    id: 127,
+    text: 'When the Sigma Male sets a goal for himself he accomplishes it',
+  },
+  {
+    id: 128,
+    text: 'The Sigma Male lives by the motto “confuse them with your silence shock them with your results”',
+  },
+  {
+    id: 129,
+    text: 'The Sigma Male understands that he must always be the star of his own movie',
+  },
+  {
+    id: 130,
+    text: 'The Sigma Male understands that that getting into a woman’s mindset is the first thing you do when getting to know her',
+  },
 ]
