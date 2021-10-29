@@ -21,8 +21,11 @@ export default function Home() {
       </Head>
       <Header />
       <Container maxW='container.lg'>
-        <Heading textAlign='center' size='2xl' mb={10}>
+        <Heading textAlign='center' size='3xl' mb={28}>
           Change your life. <br /> be the Sigma male (not now but yesterday)
+        </Heading>
+        <Heading textAlign='left' size='xl'>
+          Take a look on rule that will change your life:
         </Heading>
         <Box borderRadius='md' mb={3} p={5} background={useColorModeValue('mainLight', 'mainDark')}>
           <Text fontSize='3xl' textAlign='justify' color={useColorModeValue('mainDark', 'mainLight')}>
@@ -38,7 +41,7 @@ export default function Home() {
         >
           Show another rule
         </Button>
-        <Heading textAlign='left' mt={36} size='4xl'>
+        <Heading textAlign='left' mt={28} size='3xl'>
           your grindset is everything
         </Heading>
         <Heading textAlign='left' size='xl'>

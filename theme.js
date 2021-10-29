@@ -15,6 +15,7 @@ const theme = extendTheme({
   fonts: {
     heading: 'Bebas Neue',
     body: 'EB Garamond',
+    link: 'Oswald',
   },
   styles: {
     global: (props) => ({
