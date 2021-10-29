@@ -38,6 +38,8 @@ export default function Home() {
           _hover={{ bg: useColorModeValue('orange.500', 'purple.600') }}
           _active={{ bg: useColorModeValue('orange.600', 'purple.700') }}
           w='full'
+          fontSize='3xl'
+          fontFamily='heading'
         >
           Show another rule
         </Button>

@@ -7,6 +7,9 @@ import {
   IoLogoTiktok,
   IoLogoReddit,
   IoLogoYoutube,
+  IoHomeSharp,
+  IoListSharp,
+  IoPersonSharp,
 } from 'react-icons/io5'
 import { ImSpotify } from 'react-icons/im'
 
@@ -15,8 +18,8 @@ export default function Footer() {
     <Box background={useColorModeValue('secondaryDark', 'secondaryLight')}>
       <Container maxW='container.lg'>
         <Box mt={10} pt={10} borderTop='1px' borderTopColor={useColorModeValue('mainLight', 'mainDark')}>
-          <HStack alignItems='flex-start' justifyContent='space-between'>
-            <VStack align='left'>
+          <HStack alignItems='flex-start' justifyContent='space-between' fontFamily='link' fontSize='lg'>
+            <VStack align='left' spacing={3}>
               <Heading textAlign='left'>Links</Heading>
               <Link href='http://github.com/ton1czech/sigma-rules' display='flex' alignItems='center' isExternal>
                 <Icon mr={1} as={IoLogoGithub} />
@@ -62,20 +65,36 @@ export default function Footer() {
                 @ton1czech
               </Link>
             </VStack>
-            <VStack align='left'>
+            <VStack align='left' spacing={3}>
               <Heading>Navigation</Heading>
               <NextLink href='/'>
-                <Link>Home</Link>
+                <Link display='flex' alignItems='center'>
+                  <Icon mr={1} as={IoHomeSharp} />
+                  Home
+                </Link>
               </NextLink>
               <NextLink href='/rules'>
-                <Link>Rules</Link>
+                <Link display='flex' alignItems='center'>
+                  <Icon mr={1} as={IoListSharp} />
+                  Rules
+                </Link>
               </NextLink>
               <NextLink href='/sigma-male'>
-                <Link>Sigma Male</Link>
+                <Link display='flex' alignItems='center'>
+                  <Icon mr={1} as={IoPersonSharp} />
+                  Sigma Male
+                </Link>
               </NextLink>
             </VStack>
           </HStack>
-          <Text mt={28} textAlign='center' color={useColorModeValue('mainLight', 'mainDark')}>
+          <Text
+            mt={28}
+            pb={16}
+            textAlign='center'
+            color={useColorModeValue('mainLight', 'mainDark')}
+            fontSize='xl'
+            fontFamily='link'
+          >
             &copy; {new Date().getFullYear()} ton1czech. All Rights Reserved.
           </Text>
         </Box>

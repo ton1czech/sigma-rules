@@ -17,13 +17,13 @@ export default function Header() {
           borderBottomColor={useColorModeValue('mainLight', 'mainDark')}
         >
           <NextLink href='/'>
-            <Link display='inline-flex' alignItems='center' fontSize='5xl' fontFamily='heading'>
+            <Link fontSize='5xl' fontFamily='heading'>
               <Icon as={ImSigma} w={9} h={9} color={useColorModeValue('orange.400', 'purple.500')} mr={2} />
               Rules
             </Link>
           </NextLink>
 
-          <HStack alignItems='center'>
+          <HStack alignItems='center' fontFamily='link' spacing={5} fontSize='lg'>
             <NextLink href='/rules'>
               <Link>Rules</Link>
             </NextLink>
