@@ -389,7 +389,7 @@ export const rules = [
   },
   {
     id: 98,
-    text: 'The Sigma Male lives by the motto “I do not forgive and I do not forget',
+    text: 'The Sigma Male lives by the motto “I do not forgive and I do not forget”',
   },
   {
     id: 99,
@@ -453,7 +453,7 @@ export const rules = [
   },
   {
     id: 114,
-    text: 'If you have gotten to this very last codex then you are probably a Sigma Male',
+    text: 'The Sigma Male understands that for every day that you are alive you must accomplish at least one new thing',
   },
   {
     id: 115,
@@ -517,6 +517,206 @@ export const rules = [
   },
   {
     id: 130,
-    text: 'The Sigma Male understands that that getting into a woman’s mindset is the first thing you do when getting to know her',
+    text: 'The Sigma Male understands that getting into a woman’s mindset is the first thing you do when getting to know her',
+  },
+  {
+    id: 131,
+    text: 'When the Sigma Male travels he doesn’t take vacations he goes on adventures',
+  },
+  {
+    id: 132,
+    text: 'The Sigma Male never likes being the center of attention',
+  },
+  {
+    id: 133,
+    text: 'The Sigma Male does not argue for it is a waste of his time',
+  },
+  {
+    id: 134,
+    text: 'The Sigma Male views his brain as being a weapon and reading as the tool that sharpens it',
+  },
+  {
+    id: 135,
+    text: 'The Sigma Male always carries himself in a dignified manner',
+  },
+  {
+    id: 136,
+    text: 'The Sigma Male understands that using proper vocabulary is a sign of extreme discipline',
+  },
+  {
+    id: 137,
+    text: 'The Sigma Male lives by the motto” I will shine so bright that I will burn your eyes”',
+  },
+  {
+    id: 138,
+    text: 'The Sigma Male will always listen to his inner voice first',
+  },
+  {
+    id: 139,
+    text: 'The Sigma Male lives motto” speak it into existence”',
+  },
+  {
+    id: 140,
+    text: 'The Sigma Male understands that patience pays off',
+  },
+  {
+    id: 141,
+    text: 'The Sigma Male learns from his mistakes and makes sure not to repeat them',
+  },
+  {
+    id: 142,
+    text: 'The Sigma Male understands that doing for yourself is the ultimate freedom',
+  },
+  {
+    id: 143,
+    text: 'The Sigma Male understands he is valuable because he is rare',
+  },
+  {
+    id: 144,
+    text: 'The Sigma Male lives by the motto” Wise men plan foolish men plot”',
+  },
+  {
+    id: 145,
+    text: 'The Sigma Male is always dependable',
+  },
+  {
+    id: 146,
+    text: 'The Sigma Male is flexible when need be',
+  },
+  {
+    id: 147,
+    text: 'The Sigma Male is always enthusiastic and excited when starting new endeavors in his life',
+  },
+  {
+    id: 148,
+    text: 'The Sigma Male understands that if he has to let you go then you weren’t worth holding onto, to begin with',
+  },
+  {
+    id: 149,
+    text: 'The Sigma Male loves to learn',
+  },
+  {
+    id: 150,
+    text: 'The Sigma Male can be found with a book in his hand constantly',
+  },
+  {
+    id: 151,
+    text: 'The Sigma Male is extremely passionate about things that matter to him',
+  },
+  {
+    id: 152,
+    text: 'The Sigma Male only deals with women who can match him intellectually',
+  },
+  {
+    id: 153,
+    text: 'The Sigma Male values communication',
+  },
+  {
+    id: 154,
+    text: 'The Sigma Male hates secrets',
+  },
+  {
+    id: 155,
+    text: 'The Sigma Male is very faithful',
+  },
+  {
+    id: 156,
+    text: 'The Sigma Male is very loyal',
+  },
+  {
+    id: 157,
+    text: 'The Sigma Male is very sensitive to the pain of others',
+  },
+  {
+    id: 158,
+    text: 'For the Sigma Male words can be a weapon of choice',
+  },
+  {
+    id: 159,
+    text: 'The Sigma Male understands that a bit of knowledge has more value than a lot of ignorance',
+  },
+  {
+    id: 160,
+    text: 'The Sigma Male is fascinated by other cultures',
+  },
+  {
+    id: 161,
+    text: 'The Sigma Male never sees himself as being boring',
+  },
+  {
+    id: 162,
+    text: 'The Sigma Male is the clearest of thinkers',
+  },
+  {
+    id: 163,
+    text: 'The Sigma Male is playful, flirtatious, and funny when dealing with the object of his desire',
+  },
+  {
+    id: 164,
+    text: 'One of the greatest traits that the Sigma male has in his arsenal is the ability to think and speak clearly',
+  },
+  {
+    id: 165,
+    text: 'The Sigma Male is fascinated by the world itself',
+  },
+  {
+    id: 166,
+    text: 'The Sigma Male values verbal contact before physical contact',
+  },
+  {
+    id: 167,
+    text: 'The Sigma Male tries not to dwell on the past but rather look toward the future',
+  },
+  {
+    id: 168,
+    text: 'The Sigma Male is always in constant search of understanding',
+  },
+  {
+    id: 169,
+    text: 'The Sigma Male must have mental stimulation',
+  },
+  {
+    id: 170,
+    text: 'The Sigma Male is very skillful, inventive, and extremely smart',
+  },
+  {
+    id: 171,
+    text: 'The Sigma Male loves to spread knowledge',
+  },
+  {
+    id: 172,
+    text: 'The Sigma Male can lose interest very quickly if there is no compatibility',
+  },
+  {
+    id: 173,
+    text: 'The Sigma Male is very good at multitasking',
+  },
+  {
+    id: 174,
+    text: 'The Sigma Male does not care what others think of him',
+  },
+  {
+    id: 175,
+    text: 'The Sigma Male is most attracted to a woman that will challenge him and intrigue him',
+  },
+  {
+    id: 176,
+    text: 'The Sigma Male likes a female who will not allow others to interfere in her love life',
+  },
+  {
+    id: 177,
+    text: 'The Sigma Male doesn’t like games or mixed signals',
+  },
+  {
+    id: 178,
+    text: 'The Sigma Male is turned off by women who play hard to get',
+  },
+  {
+    id: 179,
+    text: 'The Sigma Male will never tolerate jealousy or clingy behavior',
+  },
+  {
+    id: 180,
+    text: 'The Sigma Male has a dominant personality',
   },
 ]
