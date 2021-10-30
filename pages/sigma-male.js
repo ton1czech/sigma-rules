@@ -11,7 +11,7 @@ export default function SigmaMale() {
         <title>Sigma Rules - Sigma Male</title>
       </Head>
       <Header />
-      <Container maxW='container.lg'>
+      <Container>
         <Heading size='4xl'>Who is sigma male?</Heading>
       </Container>
       <Footer />

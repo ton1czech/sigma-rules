@@ -14,76 +14,84 @@ import {
 import { ImSpotify } from 'react-icons/im'
 
 export default function Footer() {
+  const externalLinkProps = {
+    display: 'inline-flex',
+    alignItems: 'center',
+    isExternal: true,
+  }
+
+  const iconProps = {
+    mr: 1,
+  }
+
+  const linkHeadingProps = {
+    textAlign: 'left',
+    size: 'xl',
+  }
+
+  const linkProps = {
+    display: 'inline-flex',
+    alignItems: 'center',
+  }
+
   return (
     <Box background={useColorModeValue('secondaryDark', 'secondaryLight')}>
-      <Container maxW='container.lg'>
+      <Container>
         <Box mt={10} pt={10} borderTop='1px' borderTopColor={useColorModeValue('mainLight', 'mainDark')}>
           <HStack alignItems='flex-start' justifyContent='space-between' fontFamily='link' fontSize='lg'>
             <VStack align='left' spacing={3}>
-              <Heading textAlign='left' size='xl'>
-                Links
-              </Heading>
-              <Link href='http://github.com/ton1czech/sigma-rules' display='flex' alignItems='center' isExternal>
+              <Heading {...linkHeadingProps}>Links</Heading>
+              <Link href='http://github.com/ton1czech/sigma-rules' {...externalLinkProps}>
                 <Icon mr={1} as={IoLogoGithub} />
                 Source Code
               </Link>
-              <Link href='http://instagram.com/ton1czech' display='flex' alignItems='center' isExternal>
-                <Icon mr={1} as={IoLogoInstagram} />
+              <Link href='http://instagram.com/ton1czech' {...externalLinkProps}>
+                <Icon {...iconProps} as={IoLogoInstagram} />
                 @ton1czech
               </Link>
 
-              <Link href='http://twitter.com/ton1czech' display='flex' alignItems='center' isExternal>
-                <Icon mr={1} as={IoLogoTwitter} />
+              <Link href='http://twitter.com/ton1czech' {...externalLinkProps}>
+                <Icon {...iconProps} as={IoLogoTwitter} />
                 @ton1czech
               </Link>
-              <Link href='http://reddit.com/user/ton1czech' display='flex' alignItems='center' isExternal>
-                <Icon mr={1} as={IoLogoReddit} />
+              <Link href='http://reddit.com/user/ton1czech' {...externalLinkProps}>
+                <Icon {...iconProps} as={IoLogoReddit} />
                 @ton1czech
               </Link>
-              <Link
-                href='http://youtube.com/channel/UCblA_CnykG2Dw_6IMwZ9z9A'
-                display='flex'
-                alignItems='center'
-                isExternal
-              >
-                <Icon mr={1} as={IoLogoYoutube} />
+              <Link href='http://youtube.com/channel/UCblA_CnykG2Dw_6IMwZ9z9A' {...externalLinkProps}>
+                <Icon {...iconProps} as={IoLogoYoutube} />
                 @ton1czech
               </Link>
-              <Link href='http://tiktok.com/@t0n1czech' display='flex' alignItems='center' isExternal>
-                <Icon mr={1} as={IoLogoTiktok} />
+              <Link href='http://tiktok.com/@t0n1czech' {...externalLinkProps}>
+                <Icon {...iconProps} as={IoLogoTiktok} />
                 @t0n1czech
               </Link>
-              <Link href='http://github.com/ton1czech' display='flex' alignItems='center' isExternal>
-                <Icon mr={1} as={IoLogoGithub} />
+              <Link href='http://github.com/ton1czech' {...externalLinkProps}>
+                <Icon {...iconProps} as={IoLogoGithub} />
                 @ton1czech
               </Link>
-              <Link
-                href='http://open.spotify.com/user/212btc3myry7hwb45aybf4efi'
-                display='flex'
-                alignItems='center'
-                isExternal
-              >
-                <Icon mr={1} as={ImSpotify} />
+              <Link href='http://open.spotify.com/user/212btc3myry7hwb45aybf4efi' {...externalLinkProps}>
+                <Icon {...iconProps} as={ImSpotify} />
                 @ton1czech
               </Link>
             </VStack>
             <VStack align='left' spacing={3}>
-              <Heading size='xl'>Navigation</Heading>
+              <Heading {...linkHeadingProps}>Navigation</Heading>
               <NextLink href='/'>
-                <Link display='flex' alignItems='center'>
-                  <Icon mr={1} as={IoHomeSharp} />
+                <Link {...linkProps}>
+                  <Icon {...iconProps} as={IoHomeSharp} />
                   Home
                 </Link>
               </NextLink>
               <NextLink href='/rules'>
-                <Link display='flex' alignItems='center'>
-                  <Icon mr={1} as={IoListSharp} />
+                <Link {...linkProps}>
+                  <Icon {...iconProps} as={IoListSharp} />
                   Rules
                 </Link>
               </NextLink>
               <NextLink href='/sigma-male'>
-                <Link display='flex' alignItems='center'>
-                  <Icon mr={1} as={IoPersonSharp} />
+                <Link {...linkProps}>
+                  <Icon {...iconProps} as={IoPersonSharp} />
                   Sigma Male
                 </Link>
               </NextLink>

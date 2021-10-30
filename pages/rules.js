@@ -13,7 +13,7 @@ export default function Rules() {
         <title>Sigma Rules - Rules</title>
       </Head>
       <Header />
-      <Container maxW='container.lg'>
+      <Container>
         <Heading size='4xl' mb={5}>
           List of rules
         </Heading>

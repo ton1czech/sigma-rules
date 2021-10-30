@@ -44,6 +44,11 @@ const theme = extendTheme({
         color: mode('#fff', '#000')(props),
       }),
     },
+    Container: {
+      baseStyle: {
+        maxW: 'container.lg',
+      },
+    },
   },
 })
 

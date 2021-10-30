@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <Box bg={useColorModeValue('secondaryDark', 'secondaryLight')}>
-      <Container maxW='container.lg'>
+      <Container>
         <Flex
           alignItems='center'
           justifyContent='space-between'

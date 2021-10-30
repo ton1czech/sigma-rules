@@ -20,7 +20,7 @@ export default function Home() {
         <title>Sigma Rules - Home</title>
       </Head>
       <Header />
-      <Container maxW='container.lg'>
+      <Container>
         <Heading mb={28}>
           Change your life. <br /> be the Sigma male (not now but yesterday)
         </Heading>
