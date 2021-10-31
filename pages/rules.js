@@ -14,12 +14,22 @@ export default function Rules() {
       </Head>
       <Header />
       <Container>
-        <Heading size='4xl' mb={5}>
+        <Heading fontSize={{ base: '4xl', md: '7xl' }} mb={5}>
           List of rules
         </Heading>
         {rules.map(({ id, text }) => (
-          <Box background={useColorModeValue('mainLight', 'mainDark')} borderRadius='md' mb={4} p={5} key={id}>
-            <Text fontSize='2xl' color={useColorModeValue('mainDark', 'mainLight')}>
+          <Box
+            background={useColorModeValue('mainLight', 'mainDark')}
+            borderRadius='md'
+            mb={4}
+            p={{ base: 2, md: 5 }}
+            key={id}
+          >
+            <Text
+              textAlign='justify'
+              fontSize={{ base: '2xl', md: '3xl' }}
+              color={useColorModeValue('mainDark', 'mainLight')}
+            >
               Rule #{id}: {text}
             </Text>
           </Box>

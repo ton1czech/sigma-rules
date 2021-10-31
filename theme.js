@@ -6,17 +6,20 @@ const theme = extendTheme({
     initialColorMode: 'dark',
     useSystemColorMode: true,
   },
+
   colors: {
     mainDark: '#222841',
     mainLight: '#F2F1D7',
     secondaryDark: '#242B46',
     secondaryLight: '#fdfce6',
   },
+
   fonts: {
     heading: 'Bebas Neue',
     body: 'EB Garamond',
     link: 'Oswald',
   },
+
   styles: {
     global: (props) => ({
       body: {
@@ -24,26 +27,27 @@ const theme = extendTheme({
       },
     }),
   },
+
   components: {
     Heading: {
       baseStyle: (props) => ({
         color: mode('#fff', '#000')(props),
         textAlign: 'center',
       }),
-      defaultProps: {
-        size: '3xl',
-      },
     },
+
     Link: {
       baseStyle: (props) => ({
         color: mode('#fff', '#000')(props),
       }),
     },
+
     Text: {
       baseStyle: (props) => ({
         color: mode('#fff', '#000')(props),
       }),
     },
+
     Container: {
       baseStyle: {
         maxW: 'container.lg',

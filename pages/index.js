@@ -21,14 +21,18 @@ export default function Home() {
       </Head>
       <Header />
       <Container>
-        <Heading mb={28}>
+        <Heading mb={{ base: 8, md: 28 }} fontSize={{ base: '3xl', md: '6xl' }}>
           Change your life. <br /> be the Sigma male (not now but yesterday)
         </Heading>
-        <Heading textAlign='left' size='xl'>
+        <Heading textAlign='left' fontSize={{ base: 'xl', md: '4xl' }}>
           Take a look on rule that will change your life:
         </Heading>
-        <Box borderRadius='md' mb={3} p={5} background={useColorModeValue('mainLight', 'mainDark')}>
-          <Text fontSize='3xl' textAlign='justify' color={useColorModeValue('mainDark', 'mainLight')}>
+        <Box borderRadius='md' mb={3} p={{ base: 2, md: 5 }} background={useColorModeValue('mainLight', 'mainDark')}>
+          <Text
+            fontSize={{ base: '2xl', md: '3xl' }}
+            textAlign='justify'
+            color={useColorModeValue('mainDark', 'mainLight')}
+          >
             Rule #{rules[randNum].id}: {rules[randNum].text}
           </Text>
         </Box>
@@ -38,12 +42,12 @@ export default function Home() {
           _hover={{ bg: useColorModeValue('orange.500', 'purple.600') }}
           _active={{ bg: useColorModeValue('orange.600', 'purple.700') }}
           w='full'
-          fontSize='3xl'
+          fontSize={{ base: '2xl', md: '3xl' }}
           fontFamily='heading'
         >
           Show another rule
         </Button>
-        <Heading textAlign='left' mt={28}>
+        <Heading textAlign='left' mt={{ base: 12, md: 28 }}>
           your grind is everything
         </Heading>
         <Heading textAlign='left' size='xl'>

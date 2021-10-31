@@ -18,6 +18,7 @@ export default function Footer() {
     display: 'inline-flex',
     alignItems: 'center',
     isExternal: true,
+    fontSize: { base: 'md', md: 'lg' },
   }
 
   const iconProps = {
@@ -26,12 +27,13 @@ export default function Footer() {
 
   const linkHeadingProps = {
     textAlign: 'left',
-    size: 'xl',
+    fontSize: { base: '3xl', md: '4xl' },
   }
 
   const linkProps = {
     display: 'inline-flex',
     alignItems: 'center',
+    fontSize: { base: 'md', md: 'lg' },
   }
 
   return (

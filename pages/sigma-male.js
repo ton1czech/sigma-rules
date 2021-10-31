@@ -12,7 +12,9 @@ export default function SigmaMale() {
       </Head>
       <Header />
       <Container>
-        <Heading size='4xl'>Who is sigma male?</Heading>
+        <Heading fontSize={{ base: '4xl', md: '7xl' }} mb={5}>
+          Who is the sigma male?
+        </Heading>
       </Container>
       <Footer />
     </>
