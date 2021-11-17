@@ -1079,4 +1079,204 @@ export const rules = [
     id: 270,
     text: 'The Sigma Male understands that sometimes in order to appreciate life you must be around death',
   },
+  {
+    id: 271,
+    text: 'The Sigma Male claims he is superior',
+  },
+  {
+    id: 272,
+    text: 'the Sigma Male leaves his enemies knowing he is invincible',
+  },
+  {
+    id: 273,
+    text: 'The Sigma Male always speaks the truth even if it sounds rude',
+  },
+  {
+    id: 274,
+    text: 'The Sigma Male always laughs in serious moments',
+  },
+  {
+    id: 275,
+    text: 'The Sigma Male always knows everything',
+  },
+  {
+    id: 276,
+    text: 'The Sigma Male always has pride',
+  },
+  {
+    id: 277,
+    text: 'The Sigma Male is his own boss',
+  },
+  {
+    id: 278,
+    text: 'The Sigma Male doesn’t listen to those who oppose the grind',
+  },
+  {
+    id: 279,
+    text: 'The Sigma Male knows that the grindset makes the mindset',
+  },
+  {
+    id: 280,
+    text: 'The Sigma Male is not afraid to insult himself',
+  },
+  {
+    id: 281,
+    text: 'The Sigma Male understands that trouble is easy to get in to but hard to get out of, which is why he avoids situations that can bring about trouble',
+  },
+  {
+    id: 282,
+    text: 'The Sigma Male avoids putting things in his body that may alter his situational awareness',
+  },
+  {
+    id: 283,
+    text: 'The Sigma Male views women who are good mothers to their children a very attractive quality',
+  },
+  {
+    id: 284,
+    text: 'The Sigma Male understands that if you keep doing the same dumb thing over and over again then it can’t be a mistake',
+  },
+  {
+    id: 285,
+    text: 'The Sigma Male lives by the motto” I’ll let you go and be someone else’s problem”',
+  },
+  {
+    id: 286,
+    text: 'The Sigma Male lives by the motto” If I can achieve it then so can you”',
+  },
+  {
+    id: 287,
+    text: 'For the Sigma Male one of the greatest loves in his life is mathematics and science',
+  },
+  {
+    id: 288,
+    text: 'The Sigma Male understands that the only difference between success and failure is the effort',
+  },
+  {
+    id: 289,
+    text: 'The Sigma Male understands that to have a good woman by his side is the ultimate ace in the hole',
+  },
+  {
+    id: 290,
+    text: 'The Sigma Male excels at the things that he takes comfort in the most',
+  },
+  {
+    id: 291,
+    text: 'The Sigma Male lives by the motto” when you know better you will do better”',
+  },
+  {
+    id: 292,
+    text: 'The Sigma Male lives by the motto” when a man stays ready for war, he never has to get ready for war”',
+  },
+  {
+    id: 293,
+    text: 'The Sigma Male understands that, in reality, those that see themselves as being superior to him are not',
+  },
+  {
+    id: 294,
+    text: 'The Sigma Male does not waste his time chasing after things that do not exist',
+  },
+  {
+    id: 295,
+    text: 'For the Sigma Male the ultimate turn off is a woman with no self-respect',
+  },
+  {
+    id: 296,
+    text: 'The Sigma Male understands that when a man changes his outlook on life then he himself will change',
+  },
+  {
+    id: 297,
+    text: 'The Sigma Male understands that no man should ever say what he will do if he does not have the power to back it up',
+  },
+  {
+    id: 298,
+    text: 'The Sigma Male understands that history is controlled by those that write it',
+  },
+  {
+    id: 299,
+    text: 'The Sigma Male understands that life is nothing more than one big learning session',
+  },
+  {
+    id: 300,
+    text: 'The Sigma Male does his own thing all of the time',
+  },
+  {
+    id: 301,
+    text: 'The Sigma Male never relies on others for his own happiness, rather he understands he must find that in himself first',
+  },
+  {
+    id: 302,
+    text: 'The Sigma Male is content with keeping to himself when the time comes',
+  },
+  {
+    id: 303,
+    text: 'The Sigma Male does not and will not get on social media telling all of his business because he understands that can invite unwanted problems',
+  },
+  {
+    id: 304,
+    text: 'The Sigma Male does not engage in unnecessary texting or constantly staying in touch with people twenty-four hours a day',
+  },
+  {
+    id: 305,
+    text: 'The Sigma Male can control any room simply with his quiet demeanor because he comes across as mysterious',
+  },
+  {
+    id: 306,
+    text: 'The Sigma understands that his mystery and charisma is what sets him apart from others and what makes him so desirable',
+  },
+  {
+    id: 307,
+    text: 'The Sigma Male does not need anything from anyone',
+  },
+  {
+    id: 308,
+    text: 'One of the most appealing things about the Sigma Male is that he is self-sufficient, very strong, and more than capable of taking care of himself and his business',
+  },
+  {
+    id: 309,
+    text: 'For the Sigma Male friendship is not a necessity',
+  },
+  {
+    id: 310,
+    text: 'For the Sigma Male companionship and friendship are one and the same',
+  },
+  {
+    id: 311,
+    text: 'The Sigma Male never does anything by accident, that includes choosing who he lets into his life to date',
+  },
+  {
+    id: 312,
+    text: 'The Sigma Male does not believe in being available to everyone at all times',
+  },
+  {
+    id: 313,
+    text: 'The Sigma Male may seem hard to reach at times because he is such a loner',
+  },
+  {
+    id: 314,
+    text: 'The Sigma Male sees himself as being a rule-breaker and not a rule maker',
+  },
+  {
+    id: 315,
+    text: 'The Sigma Male can attract attention for both good and bad reasons',
+  },
+  {
+    id: 316,
+    text: 'The Sigma Male understands that the key to keeping a woman interested is to make her want to come back for more',
+  },
+  {
+    id: 317,
+    text: 'The Sigma Male is more stimulated by knowledge and wisdom than he is by material goods and possessions',
+  },
+  {
+    id: 318,
+    text: 'The Sigma Male comes out of his shell around those that he feels comfortable with',
+  },
+  {
+    id: 319,
+    text: 'The Sigma does not like to take orders from others',
+  },
+  {
+    id: 320,
+    text: 'The Sigma Male is not a fan of conforming to systems',
+  },
 ]
