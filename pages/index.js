@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Container, Heading, Box, Text, Button, useColorModeValue } from '@chakra-ui/react'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -8,11 +8,7 @@ import Footer from '../components/Footer'
 import { rules } from '../constants/data'
 
 export default function Home() {
-  const [randNum, setRandNum] = useState(Number)
-
-  useEffect(() => {
-    setRandNum(Math.floor(Math.random() * rules.length, 1))
-  }, [setRandNum])
+  const [randNum, setRandNum] = useState(Math.floor(Math.random() * rules.length, 1))
 
   return (
     <>
