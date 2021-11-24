@@ -1279,4 +1279,204 @@ export const rules = [
     id: 320,
     text: 'The Sigma Male is not a fan of conforming to systems',
   },
+  {
+    id: 321,
+    text: 'The Sigma Male lives by the motto ”If you hang around those that are pitiful and pathetic then you too shall become that which they are”',
+  },
+  {
+    id: 322,
+    text: 'The Sigma Male understands that those that try to make him feel inadequate are merely self projecting their own insecurities',
+  },
+  {
+    id: 323,
+    text: 'For the Sigma Male the need to be alone can sometimes be temporary',
+  },
+  {
+    id: 324,
+    text: 'The Sigma Male understands that sometimes he must learn to do things a little differently in order to accomplish a worthwhile goal',
+  },
+  {
+    id: 325,
+    text: 'The Sigma Male understands that having something to live for and to fight for can literally be the difference between sanity and insanity',
+  },
+  {
+    id: 326,
+    text: 'The Sigma Male understands that a funeral is nothing more than a ceremony for people to come to terms with the fact that someone that they care about is never coming back',
+  },
+  {
+    id: 327,
+    text: 'Part of what makes the Sigma Male seem isolated is that he does not like the world as it currently exists right now',
+  },
+  {
+    id: 328,
+    text: 'For the Sigma male if he does not have a productive day, then the day has been wasted',
+  },
+  {
+    id: 329,
+    text: 'The Sigma Male understands that he has a most important role to play in society, and it is a role he takes all too seriously',
+  },
+  {
+    id: 330,
+    text: 'The Sigma Male has no problem stepping outside his comfort zone when need be',
+  },
+  {
+    id: 331,
+    text: 'The Sigma Male becomes most creative when faced with adversity',
+  },
+  {
+    id: 332,
+    text: 'The Sigma Male lives by the motto ”I can create whatever I put my mind to, for my mind is my weapon to control”',
+  },
+  {
+    id: 333,
+    text: 'The Sigma Male is a natural-born leader who paves the way for others by setting the example for what a man should and should not be',
+  },
+  {
+    id: 334,
+    text: 'The Sigma Male is confident enough to stand alone',
+  },
+  {
+    id: 335,
+    text: 'The Sigma Male is accustomed to people looking at him strangely, which he views as a badge of honor',
+  },
+  {
+    id: 336,
+    text: 'The Sigma Male is viewed by the opposite sex as being hard to get but this is not the case, it’s not that the Sigma Male is hard to get, he just keeps things close to the chest because that is who he is',
+  },
+  {
+    id: 337,
+    text: 'The Sigma Male believes in doing his own thing despite what others may think of him',
+  },
+  {
+    id: 338,
+    text: 'The Sigma Male sees no point in living his life according to what someone else says',
+  },
+  {
+    id: 339,
+    text: 'The Sigma Male does not flaunt what he has',
+  },
+  {
+    id: 340,
+    text: 'The Sigma Male does not step into the leadership role because he goes out of his way not to attract attention, plus he believes that if people can’t see you then they can’t watch you',
+  },
+  {
+    id: 341,
+    text: 'For the Sigma Male silence is natural',
+  },
+  {
+    id: 342,
+    text: 'The Sigma Male speaks only when he needs to, saying only that which is important',
+  },
+  {
+    id: 343,
+    text: 'The Sigma Male might be labeled by some as a trouble maker, but to those that know him he is quite level headed',
+  },
+  {
+    id: 344,
+    text: 'The Sigma Male follows his own gut which at times may make him seem like a dangerous rebel',
+  },
+  {
+    id: 345,
+    text: 'The Sigma Male understands that women enjoy his company',
+  },
+  {
+    id: 346,
+    text: 'The Sigma Male hates when someone imposes on his way of life',
+  },
+  {
+    id: 347,
+    text: 'The Sigma Male has his own sense of fashion, and although he’s not into the latest trends he does feel most comfortable being casual',
+  },
+  {
+    id: 348,
+    text: 'The Sigma Male enjoys being the odd man out',
+  },
+  {
+    id: 349,
+    text: 'The Sigma Male does not demand power or seek leadership because he has no ego to maintain',
+  },
+  {
+    id: 350,
+    text: 'The Sigma Male never brings expectations or pressures into a possible relationship',
+  },
+  {
+    id: 351,
+    text: 'The Sigma Male knows that it is pointless to try to prove a point to brain dead individuals',
+  },
+  {
+    id: 352,
+    text: 'The Sigma Male is driven and motivated by his own moral compass and inner desire to push himself beyond his natural limits and boundaries',
+  },
+  {
+    id: 353,
+    text: 'The Sigma Male feels most comfortable in his own skin',
+  },
+  {
+    id: 354,
+    text: 'The Sigma Male has an entrepreneurial mindset which adds to his creativity as well as his originality',
+  },
+  {
+    id: 355,
+    text: 'The Sigma Male understands that by making mistakes it allows for knowledge and growth',
+  },
+  {
+    id: 356,
+    text: 'The Sigma Male understands that introspection and examining ones own self is a fundamental key to becoming a much better person',
+  },
+  {
+    id: 357,
+    text: 'The Sigma Male would much rather read a dictionary than read playboy magazine',
+  },
+  {
+    id: 358,
+    text: 'The Sigma Male has a wisdom that goes far beyond his age',
+  },
+  {
+    id: 359,
+    text: 'The Sigma Male views intelligence and independence as one and the same',
+  },
+  {
+    id: 360,
+    text: 'The Sigma Male lives by the motto ”that’s not how I roll or get down”',
+  },
+  {
+    id: 361,
+    text: 'Because the Sigma Male is curious by nature, his areas of interest tend to be very vast',
+  },
+  {
+    id: 362,
+    text: 'The Sigma is turned on by a woman who can read and converse on a level that is to his liking',
+  },
+  {
+    id: 363,
+    text: 'The Sigma Male has earned the title of dominant introvert, meaning that he dominates using his intelligence because he understands that is where a mans true strength lies',
+  },
+  {
+    id: 364,
+    text: 'The Sigma Male does not need a herd of people to empower him because he understands that such a belief system stems from an over-inflated ego and the Sigma Male doesn’t engage in such nonsense',
+  },
+  {
+    id: 365,
+    text: 'For the Sigma Male information and esoteric knowledge are the drugs that fuel his addictions',
+  },
+  {
+    id: 366,
+    text: 'The Sigma Male respects the rights and freedoms of others to be independent',
+  },
+  {
+    id: 367,
+    text: 'The Sigma Male has an inner charm that resonates even when he’s not trying to show it',
+  },
+  {
+    id: 368,
+    text: 'The Sigma Male is not a womanizer',
+  },
+  {
+    id: 369,
+    text: 'The Sigma Male is most attracted to a woman who operates from a self-sufficient and independent mindset like his own',
+  },
+  {
+    id: 370,
+    text: 'The Sigma Male is considered nomadic to those who may find him hard to pin down',
+  },
 ]
