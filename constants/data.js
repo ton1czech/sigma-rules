@@ -1479,4 +1479,196 @@ export const rules = [
     id: 370,
     text: 'The Sigma Male is considered nomadic to those who may find him hard to pin down',
   },
+  {
+    id: 371,
+    text: 'The Sigma Male understands his personal boundaries',
+  },
+  {
+    id: 372,
+    text: 'For the Sigma Male his emotional and psychological well being are of the utmost importance, and because of this he will defend it with a ferociousness that can’t be equaled',
+  },
+  {
+    id: 373,
+    text: 'The Sigma Male has a mindset that is most attractive to the opposite sex, for it is like a closed-door that invites a woman to come ringing the doorbell',
+  },
+  {
+    id: 374,
+    text: 'The Sigma Male is not very verbal',
+  },
+  {
+    id: 375,
+    text: 'The Sigma Male values any relationship he’s in because he understands it’s ultimate value',
+  },
+  {
+    id: 376,
+    text: 'The Sigma Male does not tolerate dullness or craziness in a woman that he may be interested in',
+  },
+  {
+    id: 377,
+    text: 'The Sigma Male lives by the motto ”when your mind is a weapon then you are never unarmed”',
+  },
+  {
+    id: 378,
+    text: 'The Sigma Male is always thankful for what he has and not for what he wants',
+  },
+  {
+    id: 379,
+    text: 'The Sigma Male understands that the difference between good and evil is determined by intent',
+  },
+  {
+    id: 380,
+    text: 'The Sigma Male views a sarcastic female as a potential nuisance and a sign of trouble that he really does not want or need',
+  },
+  {
+    id: 381,
+    text: 'The Sigma Male is the most dangerous of all men because he is quiet, which means you never where he is at mentally',
+  },
+  {
+    id: 382,
+    text: 'The Sigma Male has earned the nickname “THE BOGEYMAN” because of his uncanny ability to pop up out of nowhere at will',
+  },
+  {
+    id: 383,
+    text: 'The Sigma Male understands his own self-worth which means that no one else can determine his value for him',
+  },
+  {
+    id: 384,
+    text: 'The Sigma Male lives by the motto ”your mistreatment of me makes me want to outshine you even more”',
+  },
+  {
+    id: 385,
+    text: 'The Sigma Male lives by the motto ”my personality is bad enough so I don’t need to deal with anybody else’s”',
+  },
+  {
+    id: 386,
+    text: 'The Sigma Male gives his love to those that have earned it, and he most certainly gives his hate to those that have asked for it',
+  },
+  {
+    id: 387,
+    text: 'The Sigma Male lives by the motto ”If you get stupid with me, then I will get stupid with you”',
+  },
+  {
+    id: 388,
+    text: 'The Sigma Male understands that in order for you to be stabbed in the back, it means that you never had your eye on the individual doing the stabbing',
+  },
+  {
+    id: 389,
+    text: 'The Sigma Male lives by the motto ”if you stand behind me then I will give you my protection”',
+  },
+  {
+    id: 390,
+    text: 'The Sigma Male lives by the motto ”if you stand with me then I will give you my respect”',
+  },
+  {
+    id: 391,
+    text: 'The Sigma Male lives by the motto ”if you stand against me then I will show you no mercy”',
+  },
+  {
+    id: 392,
+    text: 'The Sigma Male lives by the motto ”if you stand in front of me then I will roll over you”',
+  },
+  {
+    id: 393,
+    text: 'The Sigma Male understands that is cool to be the introvert that attracts the curiosity of those that are not',
+  },
+  {
+    id: 394,
+    text: 'The Sigma Male never allows himself to be placed in the pack mentality',
+  },
+  {
+    id: 395,
+    text: 'The fact the Sigma Male will never reveal his true nature is what defines him',
+  },
+  {
+    id: 396,
+    text: 'What goes on in the Sigma Males head is for him to know and for you to figure out',
+  },
+  {
+    id: 397,
+    text: 'The Sigma Male lives by the motto ”For it is not what I am that matters, It is what I am not that matters the most”',
+  },
+  {
+    id: 398,
+    text: 'The Sigma Male does not like people following him, he would much rather people back off',
+  },
+  {
+    id: 399,
+    text: 'The Sigma Male has no desire to be the top dog because he is the lone wolf',
+  },
+  {
+    id: 400,
+    text: 'For the Sigma Male independent thinking takes precedent over anything else related to his characteristics',
+  },
+  {
+    id: 401,
+    text: 'The Sigma Male shuns the concept of the popularity contest because he hates that which is popular',
+  },
+  {
+    id: 402,
+    text: 'Sigma Males are not born they are created',
+  },
+  {
+    id: 403,
+    text: 'The Sigma Male is just as powerful as an Alpha Male, but he’s twice as smart',
+  },
+  {
+    id: 404,
+    text: 'The Sigma Male never feels the need to prove that he is on equal footing with anyone, including the Alpha Male',
+  },
+  {
+    id: 405,
+    text: 'The Sigma Males entire life is shrouded in mystery',
+  },
+  {
+    id: 406,
+    text: 'The Sigma Male lives by the motto ”if silence is golden then I am 24 karat”',
+  },
+  {
+    id: 407,
+    text: 'For the Sigma Male silence is his stance when it comes to vocabulary',
+  },
+  {
+    id: 408,
+    text: 'The Sigma Male is considered a bad boy because he is not going to follow the status quo',
+  },
+  {
+    id: 409,
+    text: 'The Sigma Male is very attractive to the opposite sex, but he sometimes he fails to notice',
+  },
+  {
+    id: 410,
+    text: 'The Sigma Male understands that he must never let his mysteriousness fade away',
+  },
+  {
+    id: 411,
+    text: 'The Sigma Male understands that the only difference between book smart and street smart is geography',
+  },
+  {
+    id: 412,
+    text: 'The Sigma males considers people who are easily controlled to be boring and dangerous',
+  },
+  {
+    id: 413,
+    text: 'The Sigma Male tends to operate in a morally gray area',
+  },
+  {
+    id: 414,
+    text: 'The Sigma Male never does well in a group of people because he is a free thinker and is repulsed by the idea of group thinking',
+  },
+  {
+    id: 415,
+    text: 'The Sigma Male believes that rules are meant to make people conform to things that aren’t always in the best interest of society',
+  },
+  {
+    id: 416,
+    text: 'The Sigma Male has eccentric likes',
+  },
+  {
+    id: 417,
+    text: 'Academically speaking, The Sigma Male tends to be interested in things that others might find boring or odd-ball',
+  },
+  {
+    id: 418,
+    text: 'The Sigma Male can never be defined by the people that he hangs out with because he never hangs out with anyone',
+  },
 ]
