@@ -1671,4 +1671,28 @@ export const rules = [
     id: 418,
     text: 'The Sigma Male can never be defined by the people that he hangs out with because he never hangs out with anyone',
   },
+  {
+    id: 419,
+    text: 'The Sigma Male waters his grass while it’s raining to show Mother Nature that women can’t stop the grind',
+  },
+  {
+    id: 420,
+    text: 'The Sigma Male doesn’t care about history, he makes it',
+  },
+  {
+    id: 421,
+    text: 'The Sigma Male never fakes his emotions in front of anyone',
+  },
+  {
+    id: 422,
+    text: 'The Sigma Male doesn’t reply by words, he replies by action',
+  },
+  {
+    id: 423,
+    text: 'The Sigma Male trolls his enemy in front of him',
+  },
+  {
+    id: 424,
+    text: 'The Sigma Male believes in himself and doesn’t hesitate to say he is the best',
+  },
 ]
