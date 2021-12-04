@@ -66,7 +66,7 @@ export default function SigmaMale() {
           - Teenage Life = Learning to grow into yourself can be a difficult experience. Many Sigma Males live through
           their teenage years feeling depressed, bullied, alienated and alone
         </Text>
-        <Image src='/gigachad.jpg' height={1220} width={1024} quality={100} />
+        <Image loading='lazy' src='/gigachad.jpg' height={1220} width={1024} quality={100} />
       </Container>
       <Footer />
     </>

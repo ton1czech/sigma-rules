@@ -1,5 +1,4 @@
 import { extendTheme } from '@chakra-ui/react'
-import { mode } from '@chakra-ui/theme-tools'
 
 const theme = extendTheme({
   colors: {
@@ -15,30 +14,30 @@ const theme = extendTheme({
   },
 
   styles: {
-    global: (props) => ({
+    global: () => ({
       body: {
-        bg: mode('#222831', '#f2f1d7')(props),
+        bg: '#f2f1d7',
       },
     }),
   },
 
   components: {
     Heading: {
-      baseStyle: (props) => ({
-        color: mode('#fff', '#000')(props),
+      baseStyle: () => ({
+        color: '#000',
         textAlign: 'center',
       }),
     },
 
     Link: {
-      baseStyle: (props) => ({
-        color: mode('#fff', '#000')(props),
+      baseStyle: () => ({
+        color: '#000',
       }),
     },
 
     Text: {
-      baseStyle: (props) => ({
-        color: mode('#fff', '#000')(props),
+      baseStyle: () => ({
+        color: '#000',
       }),
     },
 
