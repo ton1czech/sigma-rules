@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Container, Heading, Box, Text, Button, useColorModeValue } from '@chakra-ui/react'
+import { Container, Heading, Box, Text, Button } from '@chakra-ui/react'
 import { useState } from 'react'
 
 import Header from '../components/Header'
