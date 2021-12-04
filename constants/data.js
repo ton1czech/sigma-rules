@@ -945,7 +945,7 @@ export const rules = [
   },
   {
     id: 237,
-    text: 'The Sigma Male understands that sometimes when the boy cries wolf it’s not the wolf that you need to look at',
+    text: 'The Sigma Male understands that sometimes when the boy cries, wolf is not the thing that you need to look at',
   },
   {
     id: 238,
@@ -1025,7 +1025,7 @@ export const rules = [
   },
   {
     id: 257,
-    text: 'The Sigma Male lives by the motto ”think like a soldier, not a hostage',
+    text: 'The Sigma Male lives by the motto ”think like a soldier, not a hostage”',
   },
   {
     id: 258,
