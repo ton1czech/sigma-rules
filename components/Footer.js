@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Box, useColorModeValue, Heading, HStack, VStack, Link, Container, Text, Icon } from '@chakra-ui/react'
+import { Box, Heading, HStack, VStack, Link, Container, Text, Icon } from '@chakra-ui/react'
 import {
   IoLogoTwitter,
   IoLogoInstagram,
@@ -37,9 +37,9 @@ export default function Footer() {
   }
 
   return (
-    <Box background={useColorModeValue('secondaryDark', 'secondaryLight')}>
+    <Box background='secondary'>
       <Container>
-        <Box mt={10} pt={10} borderTop='1px' borderTopColor={useColorModeValue('mainLight', 'mainDark')}>
+        <Box mt={10} pt={10} borderTop='1px' borderTopColor='dark'>
           <HStack alignItems='flex-start' justifyContent='space-between' fontFamily='link' fontSize='lg'>
             <VStack align='left' spacing={3}>
               <Heading {...linkHeadingProps}>Links</Heading>
@@ -51,7 +51,6 @@ export default function Footer() {
                 <Icon {...iconProps} as={IoLogoInstagram} />
                 @ton1czech
               </Link>
-
               <Link href='http://twitter.com/ton1czech' {...externalLinkProps}>
                 <Icon {...iconProps} as={IoLogoTwitter} />
                 @ton1czech
@@ -99,14 +98,7 @@ export default function Footer() {
               </NextLink>
             </VStack>
           </HStack>
-          <Text
-            mt={28}
-            pb={16}
-            textAlign='center'
-            color={useColorModeValue('mainLight', 'mainDark')}
-            fontSize='xl'
-            fontFamily='link'
-          >
+          <Text mt={28} pb={16} textAlign='center' color='main' fontSize='xl' fontFamily='link'>
             &copy; {new Date().getFullYear()} ton1czech. All Rights Reserved.
           </Text>
         </Box>

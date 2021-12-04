@@ -23,20 +23,16 @@ export default function Home() {
         <Heading textAlign='left' fontSize={{ base: 'xl', md: '4xl' }}>
           Take a look on rule that will change your life:
         </Heading>
-        <Box borderRadius='md' mb={3} p={{ base: 2, md: 5 }} background={useColorModeValue('mainLight', 'mainDark')}>
-          <Text
-            fontSize={{ base: '2xl', md: '3xl' }}
-            textAlign='justify'
-            color={useColorModeValue('mainDark', 'mainLight')}
-          >
+        <Box borderRadius='md' mb={3} p={{ base: 2, md: 5 }} background='dark'>
+          <Text fontSize={{ base: '2xl', md: '3xl' }} textAlign='justify' color='main'>
             Rule #{rules[randNum].id}: {rules[randNum].text}
           </Text>
         </Box>
         <Button
           onClick={() => setRandNum(Math.floor(Math.random() * rules.length, 1))}
-          bg={useColorModeValue('orange.400', 'purple.500')}
-          _hover={{ bg: useColorModeValue('orange.500', 'purple.600') }}
-          _active={{ bg: useColorModeValue('orange.600', 'purple.700') }}
+          bg={'purple.500'}
+          _hover={{ bg: 'purple.600' }}
+          _active={{ bg: 'purple.700' }}
           w='full'
           fontSize={{ base: '2xl', md: '3xl' }}
           fontFamily='heading'

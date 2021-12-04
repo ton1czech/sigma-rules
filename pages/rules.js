@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Heading, Box, Text, useColorModeValue, Container } from '@chakra-ui/react'
+import { Heading, Box, Text, Container } from '@chakra-ui/react'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -18,18 +18,8 @@ export default function Rules() {
           List of rules
         </Heading>
         {rules.map(({ id, text }) => (
-          <Box
-            background={useColorModeValue('mainLight', 'mainDark')}
-            borderRadius='md'
-            mb={4}
-            p={{ base: 2, md: 5 }}
-            key={id}
-          >
-            <Text
-              textAlign='justify'
-              fontSize={{ base: '2xl', md: '3xl' }}
-              color={useColorModeValue('mainDark', 'mainLight')}
-            >
+          <Box background='dark' borderRadius='md' mb={4} p={{ base: 2, md: 5 }} key={id}>
+            <Text textAlign='justify' fontSize={{ base: '2xl', md: '3xl' }} color='main'>
               Rule #{id}: {text}
             </Text>
           </Box>

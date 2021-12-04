@@ -6,6 +6,16 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 export default function SigmaMale() {
+  const headingProps = {
+    fontSize: { base: 'xl', md: '4xl' },
+    mb: 5,
+  }
+
+  const textProps = {
+    fontSize: { base: '2xl', md: '3xl' },
+    pb: 12,
+  }
+
   return (
     <>
       <Head>
@@ -16,10 +26,8 @@ export default function SigmaMale() {
         <Heading fontSize={{ base: '4xl', md: '7xl' }} mb={5}>
           Who is the sigma male?
         </Heading>
-        <Heading fontSize={{ base: 'xl', md: '4xl' }} mb={5}>
-          Characteristics
-        </Heading>
-        <Text fontSize={{ base: '2xl', md: '3xl' }} pb='12'>
+        <Heading {...headingProps}>Characteristics</Heading>
+        <Text {...textProps}>
           The Sigma Male has all the positive traits of the Alpha Male such as confidence, the self-assurance, the
           ambition and the popularity but without the huge ego, aggression, and need for validation from others. He can
           socialise just fine and can manipulate and adapt to situations as and when needed. Even taking on leadership
@@ -33,32 +41,28 @@ export default function SigmaMale() {
           follow but is comfortable in either position if he must be. He's usually a good judge of character, abstaining
           from immediate judgment of others.
         </Text>
-        <Heading fontSize={{ base: 'xl', md: '4xl' }} mb={5}>
-          Pros
-        </Heading>
-        <Text fontSize={{ base: '2xl', md: '3xl' }} pb='12'>
+        <Heading {...headingProps}>Pros</Heading>
+        <Text {...textProps}>
           - Freedom = Not carrying the burden of what other people think is incredibly freeing and allows The Sigma Male
           to live his life on his own terms.
         </Text>
-        <Text fontSize={{ base: '2xl', md: '3xl' }} pb='12'>
+        <Text {...textProps}>
           - Attraction = Women are automatically drawn to The Sigma Male due to their mysterious nature and willingness
           to walk away.
         </Text>
-        <Text fontSize={{ base: '2xl', md: '3xl' }} pb='12'>
+        <Text {...textProps}>
           - Efficiency = The Sigma Male isn't bound to the usual trappings of cultural norms and societal pressures,
           which makes him live so much more efficiently. He doesn't feel the need to waste time and money on anything
           that doesn't serve his own interests, personal goals or plans. Not caring about the judgments and opinions of
           others also allows him to be 100% genuine and authentic, as he sees no need in trying to win the approval or
           validation of anyone except himself
         </Text>
-        <Heading fontSize={{ base: 'xl', md: '4xl' }} mb={5}>
-          Cons
-        </Heading>
-        <Text fontSize={{ base: '2xl', md: '3xl' }} pb='12'>
+        <Heading {...headingProps}>Cons</Heading>
+        <Text {...textProps}>
           - No Tribe = Ironically, the best thing about being The Sigma Male can also be one of the worst things - to be
           alone
         </Text>
-        <Text fontSize={{ base: '2xl', md: '3xl' }} pb='12'>
+        <Text {...textProps}>
           - Teenage Life = Learning to grow into yourself can be a difficult experience. Many Sigma Males live through
           their teenage years feeling depressed, bullied, alienated and alone
         </Text>

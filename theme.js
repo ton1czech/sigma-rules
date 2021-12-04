@@ -2,16 +2,10 @@ import { extendTheme } from '@chakra-ui/react'
 import { mode } from '@chakra-ui/theme-tools'
 
 const theme = extendTheme({
-  config: {
-    initialColorMode: 'dark',
-    useSystemColorMode: true,
-  },
-
   colors: {
-    mainDark: '#222841',
-    mainLight: '#F2F1D7',
-    secondaryDark: '#242B46',
-    secondaryLight: '#fdfce6',
+    main: '#F2F1D7',
+    secondary: '#fdfce6',
+    dark: '#222841',
   },
 
   fonts: {
