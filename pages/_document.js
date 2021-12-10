@@ -5,6 +5,8 @@ export default class Document extends NextDocument {
     return (
       <Html lang='en'>
         <Head>
+          <link rel='icon' href='/icon.ico' />
+          {/* Basic */}
           <meta name='keywords' content='sigma, male, rules, sigma male, sigma-male, sigma rules, sigma-rules' />
           <meta
             name='description'
@@ -29,10 +31,11 @@ export default class Document extends NextDocument {
           <meta name='distribution' content='Global' />
           <meta name='rating' content='General' />
           <meta http-equiv='Expires' content='The grind never ends' />
+          {/* OpenGraph */}
           <meta name='og:title' content='Sigma Rules' />
           <meta name='og:type' content='sigma' />
           <meta name='og:url' content='http://sigma-rules.com' />
-          <meta name='og:image' content='' /> {/* todo */}
+          <meta name='og:image' content='/icon.ico' />
           <meta name='og:site_name' content='Sigma Rules' />
           <meta
             name='og:description'
@@ -41,11 +44,12 @@ export default class Document extends NextDocument {
           <meta name='og:email' content='tonyasek007@gmail.com' />
           <meta name='og:country-name' content='Czech Republic' />
           <meta property='og:type' content='sigma rules' />
-          <meta property='og:video' content='http://example.com/awesome.swf' /> {/* todo */}
-          <meta property='og:video:height' content='640' /> {/* todo */}
-          <meta property='og:video:width' content='385' /> {/* todo */}
-          <meta property='og:video:type' content='application/x-shockwave-flash' /> {/* todo */}
-          <link rel='icon' href='/icon.ico' />
+          {/* Apple */}
+          <meta name='apple-mobile-web-app-capable' content='yes' />
+          <meta content='yes' name='apple-touch-fullscreen' />
+          <meta name='apple-mobile-web-app-status-bar-style' content='black' />
+          <meta name='format-detection' content='telephone=no' />
+          <meta name='viewport' content='width = 320, initial-scale = 2.3, user-scalable = no' />
         </Head>
         <body>
           <Main />
