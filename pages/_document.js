@@ -29,7 +29,22 @@ export default class Document extends NextDocument {
           <meta name='distribution' content='Global' />
           <meta name='rating' content='General' />
           <meta http-equiv='Expires' content='The grind never ends' />
-
+          <meta name='og:title' content='Sigma Rules' />
+          <meta name='og:type' content='sigma' />
+          <meta name='og:url' content='http://sigma-rules.com' />
+          <meta name='og:image' content='' /> {/* todo */}
+          <meta name='og:site_name' content='Sigma Rules' />
+          <meta
+            name='og:description'
+            content='Learn about sigma males. How to recognize sigma? celebrities that are sigma males, list of rules for you to become sigma male and much more on sigma-rules.com'
+          />
+          <meta name='og:email' content='tonyasek007@gmail.com' />
+          <meta name='og:country-name' content='Czech Republic' />
+          <meta property='og:type' content='sigma rules' />
+          <meta property='og:video' content='http://example.com/awesome.swf' /> {/* todo */}
+          <meta property='og:video:height' content='640' /> {/* todo */}
+          <meta property='og:video:width' content='385' /> {/* todo */}
+          <meta property='og:video:type' content='application/x-shockwave-flash' /> {/* todo */}
           <link rel='icon' href='/icon.ico' />
         </Head>
         <body>
