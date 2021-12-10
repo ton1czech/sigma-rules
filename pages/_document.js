@@ -44,6 +44,14 @@ export default class Document extends NextDocument {
           <meta name='og:email' content='tonyasek007@gmail.com' />
           <meta name='og:country-name' content='Czech Republic' />
           <meta property='og:type' content='sigma rules' />
+          <meta property='og:title' content='Sigma Rules' />
+          <meta property='og:url' content='http://sigma-rules.com' />
+          <meta property='og:image' content='/icon.ico' />
+          <meta
+            property='og:description'
+            content='Learn about sigma males. How to recognize sigma? celebrities that are sigma males, list of rules for you to become sigma male and much more on sigma-rules.com'
+          />
+          <meta property='og:site_name' content='Sigma Rules' />
           {/* Apple */}
           <meta name='apple-mobile-web-app-capable' content='yes' />
           <meta content='yes' name='apple-touch-fullscreen' />
@@ -58,6 +66,18 @@ export default class Document extends NextDocument {
           <link rel='apple-touch-icon' sizes='114x114' href='/icon.ico' />
           <link rel='apple-touch-startup-image' href='/icon.ico' />
           <link rel='apple-touch-icon' type='image/png' href='/apple-touch-icon.png' />
+          {/* Twitter */}
+          <meta name='twitter:card' content='Sigma Rules' />
+          <meta name='twitter:site' content='@ton1czech' />
+          <meta name='twitter:title' content='Sigma Rules' />
+          <meta name='twitter:description' content='' />
+          <meta name='twitter:creator' content='@ton1czech' />
+          <meta name='twitter:image:src' content='/icon.ico' />
+          <meta name='twitter:image' content='/icon.ico' />
+          <meta name='twitter:label1' content='Rules?' />
+          <meta name='twitter:data1' content='All of them' />
+          <meta name='twitter:label2' content='Male:' />
+          <meta name='twitter:data2' content='Sigma' />
         </Head>
         <body>
           <Main />
