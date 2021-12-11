@@ -125,7 +125,7 @@ export const rules = [
   },
   {
     id: 32,
-    text: 'The Sigma Male lives by the motto “calm, cool, and collective',
+    text: 'The Sigma Male lives by the motto “calm, cool, and collective“',
   },
   {
     id: 33,
@@ -1141,7 +1141,7 @@ export const rules = [
   },
   {
     id: 286,
-    text: 'The Sigma Male lives by the motto” If I can achieve it then so can you”',
+    text: 'The Sigma Male lives by the motto ”If I can achieve it then so can you”',
   },
   {
     id: 287,
