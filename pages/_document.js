@@ -57,10 +57,6 @@ export default class Document extends NextDocument {
           <meta content='yes' name='apple-touch-fullscreen' />
           <meta name='apple-mobile-web-app-status-bar-style' content='black' />
           <meta name='format-detection' content='telephone=no' />
-          <meta name='viewport' content='width = 320, initial-scale = 2.3, user-scalable = no' />
-          <meta name='viewport' content='width = device-width' />
-          <meta name='viewport' content='initial-scale = 1.0' />
-          <meta name='viewport' content='initial-scale = 2.3, user-scalable = no' />
           <link rel='apple-touch-icon' href='/icon.ico' />
           <link rel='apple-touch-icon' sizes='72x72' href='/icon.ico' />
           <link rel='apple-touch-icon' sizes='114x114' href='/icon.ico' />
