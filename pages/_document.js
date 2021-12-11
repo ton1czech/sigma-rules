@@ -30,7 +30,7 @@ export default class Document extends NextDocument {
           <meta name='coverage' content='Worldwide' />
           <meta name='distribution' content='Global' />
           <meta name='rating' content='General' />
-          <meta http-equiv='Expires' content='The grind never ends' />
+          <meta httpEquiv='Expires' content='The grind never ends' />
           {/* OpenGraph */}
           <meta name='og:title' content='Sigma Rules' />
           <meta name='og:type' content='sigma' />
