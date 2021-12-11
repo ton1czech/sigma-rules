@@ -98,7 +98,7 @@ export default function Footer() {
               </NextLink>
             </VStack>
           </HStack>
-          <Text mt={28} pb={16} textAlign='center' color='main' fontSize='xl' fontFamily='link'>
+          <Text mt={28} pb={16} textAlign='center' color='dark' fontSize='xl' fontFamily='link'>
             &copy; {new Date().getFullYear()} ton1czech. All Rights Reserved.
           </Text>
         </Box>
